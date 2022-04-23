@@ -1,0 +1,20 @@
+# 将该子项目下包含的内容反馈回主项目中
+include_directories(.)
+
+# chapter01_variable
+add_executable(varDemo01 varDemo01.c)
+add_executable(varDetail varDetail.c)
+add_executable(intDemo intDemo.c)
+add_executable(intDetail intDetail.c)
+add_executable(floatdoubleDemo floatdoubleDemo.c)
+add_executable(hello hello.c)
+add_executable(charDemo charDemo.c)
+add_executable(boolDemo boolDemo.c)
+add_executable(typeTransfer typeTransfer.c)
+add_executable(forceTypeTransfer forceTypeTransfer.c)
+add_executable(exercise01 exercise01.c)
+add_executable(pointer pointer.c)
+add_executable(pointerExercise01 pointerExercise01.c)
+add_executable(addressPassDemo addressPassDemo.c)
+add_executable(exercise02 exercise02.c)
+add_executable(exercise03 exercise03.c)
