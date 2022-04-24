@@ -21,6 +21,7 @@ add_subdirectory(chapter12_debug)
 add_subdirectory(chapter13_pointer)
 add_subdirectory(chapter14_struct)
 add_subdirectory(chapter15_union)
+add_subdirectory(chapter16_accountSoftWare)
 
 # 从myfun.c源文件创建一个静态库
 add_library(myfun STATIC myfun.c)
